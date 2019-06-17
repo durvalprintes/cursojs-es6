@@ -1,7 +1,11 @@
-alert('Teste');
+// alert('Teste');
 
 class Teste {
   metodo() {
+    
+  }
+
+  outro() {
     
   }
 }
