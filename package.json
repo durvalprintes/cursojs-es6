@@ -1,9 +1,8 @@
 {
-  "name": "es6",
-  "version": "1.0",
-  "description": "Station Rocketseat",
+  "name": "cursojs-es6",
+  "version": "1.0.0",
   "main": "index.js",
-  "author": "Durval",
+  "repository": "http://github.com/durvalprintes/cursojs-es6.git",
   "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.4.4",
@@ -11,7 +10,6 @@
     "@babel/preset-env": "^7.4.5"
   },
   "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js",
-    "test": "babel ./main.js -o ./bundle.js -w"
+    "dev": "babel -w ./main.js -o ./bundler.js"
   }
 }

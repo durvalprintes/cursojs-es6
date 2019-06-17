@@ -4,8 +4,4 @@ class Teste {
   metodo() {
     
   }
-
-  outro() {
-    
-  }
 }
