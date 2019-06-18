@@ -4,23 +4,27 @@
   "main": "index.js",
   "repository": "http://github.com/durvalprintes/cursojs-es6.git",
   "license": "MIT",
-  "dependencies": {
+  "scripts": {
+    "conceitos": "babel ./src/conceitos/desafio.js -o ./pulic/bundle.js -w",
+    "dev": "webpack --mode=development -w",
+    "srv": "webpack-dev-server --mode=development",
+    "bld": "webpack --mode=production"
+  },
+  "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
-    "@babel/preset-env": "^7.4.5"
-  },
-  "scripts": {
-    "dev": "babel -w ./main.js -o ./bundler.js",
-    "test1": "babel -w ./desafio1.js -o ./bundler2.js"
-  },
-  "devDependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
   }
 }
