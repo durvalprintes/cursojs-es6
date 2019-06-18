@@ -7,9 +7,11 @@
   "dependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
     "@babel/preset-env": "^7.4.5"
   },
   "scripts": {
-    "dev": "babel -w ./main.js -o ./bundler.js"
+    "dev": "babel -w ./main.js -o ./bundler.js",
+    "test1" : "babel -w ./desafio1.js -o ./bundler2.js"
   }
 }
