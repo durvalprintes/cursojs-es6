@@ -12,6 +12,15 @@
   },
   "scripts": {
     "dev": "babel -w ./main.js -o ./bundler.js",
-    "test1" : "babel -w ./desafio1.js -o ./bundler2.js"
+    "test1": "babel -w ./desafio1.js -o ./bundler2.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
   }
 }
