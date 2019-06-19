@@ -3,10 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <title>RocketSeat Station</title>
+    <style>
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      li {
+        clear: both;
+        margin-top: 20px;
+      }
+      img {
+        width: 80px;
+        float: left;
+        margin-right: 10px;
+      }
+      strong {
+        font-size: 20px;
+      }
+      p {
+        margin: 5px 0;
+      }
+    </style>
   </head>
   <body>
-    <!-- <h1>Hello world!</h1> -->
+    <h1>Javascrip ES6+</h1>
+    <form id="repo-form">
+      <input type="text" name="repository" />
+      <button type="submit">Adicionar</button>
+    </form>
+    <div>
+      <ul id="repo-list"></ul>
+    </div>
     <script src="./bundle.js"></script>
-    <!-- <script src="./bundler.js"></script> -->
   </body>
 </html>
